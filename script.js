@@ -40,11 +40,9 @@ function mensaje5() {
 const funciones = [mensaje1, mensaje2, mensaje3, mensaje4, mensaje5];
 
 function ejecutarFuncionAleatoria() {
-  const resultado = document.getElementById('resultado');
   const randomIndex = Math.floor(Math.random() * funciones.length);
   const funcionAleatoria = funciones[randomIndex];
   const mensaje = funcionAleatoria();
-
 }
 
 
