@@ -111,14 +111,14 @@ function validarContraseña() {
   const resultadoLabel = document.getElementById("resultadoLabel");
   const contraseña = contraseñaInput.value;
 
- 
+
   if (contraseña.length < 8) {
     resultadoLabel.textContent = "Contraseña incorrecta: Debe tener al menos 8 caracteres.";
     resultadoLabel.style.color = "red";
     return;
   }
 
-  
+
   if (!/[A-Z]/.test(contraseña)) {
     resultadoLabel.textContent = "Contraseña incorrecta: Debe contener al menos una letra mayúscula.";
     resultadoLabel.style.color = "red";
@@ -149,14 +149,14 @@ function validarContraseña() {
 function contarDigitos() {
   const numeroInput = document.getElementById("numeroInput");
   const respuestaTextarea = document.getElementById("respuestaTextarea");
-  
+
   const numero = parseInt(numeroInput.value, 10);
-  
+
   if (!isNaN(numero)) {
-      const cantidadDeDigitos = contarDigitosEnNumero(numero);
-      respuestaTextarea.value = `El número ${numero} tiene ${cantidadDeDigitos} dígitos.`;
+    const cantidadDeDigitos = contarDigitosEnNumero(numero);
+    respuestaTextarea.value = `El número ${numero} tiene ${cantidadDeDigitos} dígitos.`;
   } else {
-      respuestaTextarea.value = "Por favor, ingresa un número válido.";
+    respuestaTextarea.value = "Por favor, ingresa un número válido.";
   }
 }
 
@@ -176,10 +176,10 @@ function calcularDias() {
   const fechaFin = new Date(fechaFinInput.value);
 
   if (isNaN(fechaInicio.getTime()) || isNaN(fechaFin.getTime())) {
-      resultadoTextarea2.value = "Por favor, ingresa fechas válidas.";
+    resultadoTextarea2.value = "Por favor, ingresa fechas válidas.";
   } else {
-      const diferenciaEnMilisegundos = fechaFin - fechaInicio;
-      const dias = Math.floor(diferenciaEnMilisegundos / (1000 * 60 * 60 * 24));
-      resultadoTextarea2.value = `Días entre las fechas: ${dias} días.`;
+    const diferenciaEnMilisegundos = fechaFin - fechaInicio;
+    const dias = Math.floor(diferenciaEnMilisegundos / (1000 * 60 * 60 * 24));
+    resultadoTextarea2.value = `Días entre las fechas: ${dias} días.`;
   }
 }

@@ -1,9 +1,9 @@
-body{
+body {
     background-color: rgba(0, 0, 0, 0.06);
 }
 
 
-.titulo1{
+.titulo1 {
     width: 30%;
     color: white;
     border-radius: 50px;
@@ -17,14 +17,14 @@ body{
     box-shadow: 10px 10px 40px rgb(0.2, 0.2, 0.2, 0.5);
 }
 
-#numeroInput{
+#numeroInput {
     border-radius: 20px;
-    outline: none ;
+    outline: none;
     margin: 20px;
     box-shadow: 5px 5px 10px rgb(0.2, 0.2, 0.2, 0.5);
 }
 
-#respuestaTextarea{
+#respuestaTextarea {
     height: 5vh;
     width: 100%;
     border-radius: 20px;
@@ -32,7 +32,7 @@ body{
     display: block;
 }
 
-#resultadoTextarea2{
+#resultadoTextarea2 {
     margin: 10px;
     height: 5vh;
     width: 100%;
@@ -41,28 +41,28 @@ body{
     display: block;
 }
 
-#contrasenaInput{
+#contrasenaInput {
     border-radius: 20px;
-    outline: none ;
+    outline: none;
     margin: 20px;
     box-shadow: 5px 5px 10px rgb(0.2, 0.2, 0.2, 0.5);
 }
 
-#inputText{
+#inputText {
     border-radius: 20px;
-    outline: none ;
+    outline: none;
     margin: 20px;
     box-shadow: 5px 5px 10px rgb(0.2, 0.2, 0.2, 0.5);
 }
 
-.inputTexto{
+#inputTexto {
     border-radius: 20px;
-    outline: none ;
+    outline: none;
     margin: 20px;
     box-shadow: 5px 5px 10px rgb(0.2, 0.2, 0.2, 0.5);
 }
 
-#resultado{
+#resultado {
     height: 5vh;
     width: 100%;
     border-radius: 20px;
@@ -71,16 +71,16 @@ body{
 }
 
 
-#div1{
+#div1 {
     background-color: rgba(0, 0, 0, 0.144);
     margin: 50px;
-    height:30vh;
+    height: 30vh;
     border-radius: 50px;
     padding: 20px;
     box-shadow: 15px 15px 15px rgb(0.2, 0.2, 0.2, 0.5);
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,20 +88,20 @@ body{
     width: 30%;
 }
 
-.boton1{
+.boton1 {
     background-color: rgb(237, 57, 57);
     border-radius: 50px;
     color: white;
 }
 
-.boton1:hover{
+.boton1:hover {
     background-color: rgb(160, 27, 27);
     width: 100px;
 }
 
-.fecha{
+.fecha {
     border-radius: 20px;
-    outline: none ;
+    outline: none;
     margin: 5px;
     box-shadow: 5px 5px 10px rgb(0.2, 0.2, 0.2, 0.5);
 }
